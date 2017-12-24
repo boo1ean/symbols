@@ -1,6 +1,6 @@
-var vovels = 'eyuioa';
-module.exports.is_vovel = function(sym) {
-	return vovels.indexOf(sym.toLowerCase()) !== -1;
+var vowels = 'eyuioa';
+module.exports.is_vowel = function(sym) {
+	return vowels.indexOf(sym.toLowerCase()) !== -1;
 };
 
 var consonants = 'qwrtpsdfghjklmnbvcxz';

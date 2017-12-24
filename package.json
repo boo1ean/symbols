@@ -1,6 +1,6 @@
 {
   "name": "symbols",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "String/symbols related helpers",
   "main": "src/helpers.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "symbol",
     "helper",
-    "vovel",
+    "vowel",
     "consonant",
     "letters"
   ],

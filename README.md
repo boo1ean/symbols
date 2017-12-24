@@ -12,7 +12,7 @@ Set of symbol-related helpers
 var symbols = require('symbols');
 
 // eyuioa
-symbols.is_vovel(sym);
+symbols.is_vowel(sym);
 
 // qwrtpasdfghjklmnbvcxz
 symbols.is_consonant(sym);
