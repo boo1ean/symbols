@@ -3,7 +3,7 @@ module.exports.is_vovel = function(sym) {
 	return vovels.indexOf(sym.toLowerCase()) !== -1;
 };
 
-var consonants = 'qwrtpasdfghjklmnbvcxz';
+var consonants = 'qwrtpsdfghjklmnbvcxz';
 module.exports.is_consonant = function(sym) {
 	return consonants.indexOf(sym.toLowerCase()) !== -1;
 };
