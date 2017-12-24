@@ -8,7 +8,7 @@ describe('Symbol helpers', function() {
 	});
 
 	it('Should detect vowels', function() {
-		'qwrtpasdfghjklmnbvcxz'.split('').forEach(function(letter) {
+		'qwrtpsdfghjklmnbvcxz'.split('').forEach(function(letter) {
 			symbols.is_consonant(letter).should.be.ok;
 		});
 	});
